@@ -15,7 +15,7 @@ jobs:
 
       - name: Debug Output
         run: |
-          echo "GitHub token: $GITHUB_TOKEN"
+          echo "GitHub token: ${{ secrets.MY_GITHUB_TOKEN }}"
         
       - name: Mirroring
         env:
